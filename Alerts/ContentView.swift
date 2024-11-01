@@ -50,7 +50,7 @@ struct ContentView: View {
         }
         
         Button("Log In") {
-            error = .invalidUserName
+            error = .invalidPassword
             isShowingLoginAlert = true
            }
         .alert(isPresented: $isShowingLoginAlert, error: error) { error in
