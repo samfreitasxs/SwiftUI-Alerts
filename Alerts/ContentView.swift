@@ -88,7 +88,7 @@ enum MyappError: LocalizedError {
         case.invalidPassword:
             "Invalid Password"
         case.noNetwork:
-            "No Network Connection "
+            "Connection "
         }
     }
     
